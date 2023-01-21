@@ -1,0 +1,31 @@
+doctype html
+html
+  head
+    title= title
+    meta(charset='utf-8')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    div(class='sidebar-top')
+      ul
+        li
+          a(href='', class='sidebar', style='float: left') PBN
+        li
+          a(href='', class='sidebar', style='float: right') Войти
+        li
+          a(href='', class='sidebar', style='float: right') Регистрация
+    div(class='sidebar-left')
+      ul
+       li
+         a(href='') Профиль
+
+       li 
+         a(href='', class='sidebar') Задания 
+           img(src='/icons/clipboard.svg', height=24, width=24)
+       li
+         a(href='', class='sidebar') Настройки
+       li
+         a(href='', class='sidebar') Статистика
+       li
+         a(href='', class='sidebar') Админ
+    div(class='main')
+      block content
