@@ -1,6 +1,11 @@
+:root {
+  --primary: #e53935;
+}
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  top: 0;
-  left: 0;
 }
-
+.pbnicon {
+	background-image: url(/Img/sides.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
